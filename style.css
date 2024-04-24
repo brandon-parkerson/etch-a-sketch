@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    
 }
 
 .header {
@@ -11,6 +11,7 @@ body {
     align-items: center;
     width: 700px;
     justify-content: space-around;
+    margin: 20px;
 }
 
 .footer {
@@ -18,12 +19,19 @@ body {
     justify-content: space-between;
     width: 700px;
     align-items: center;
+    margin: 20px;
 }
 
 .board {
-    height: 700px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     border: 1px solid black;
-    border-radius: 10px;
+    
     display: grid;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.board div {
+    border: 1px solid black;
 }
